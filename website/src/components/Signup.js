@@ -1,6 +1,6 @@
 import '../styles/signup.css'
 import logo from '../assets/logo.png'
-import vector from '../assets/Vector.png'
+import vector from '../assets/Vector1.png'
 import { AiFillEye } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
@@ -8,10 +8,10 @@ import { BsLinkedin } from 'react-icons/bs';
 
 const Signup = () => {
     return (
-        <main className="signup flex flex-row justify-between">
-            <div className="left flex flex-col py-0 px-16">
-                <div className="head px-11">
-                    <img src={logo} alt="logo" className="logo h-36 w-36" />
+        <main className="signup flex flex-row">
+            <div className="left flex flex-col lg:px-16">
+                <div className="head flex sm:px-1 lg:px-11">
+                    <img src={logo} alt="logo" className="logo h-36 w-36 text-center" />
                 </div>
                 <div className="body flex-col mt-5 mx-auto w-46">
                     <h1 className="font-bold text-4xl">Create Account</h1>
