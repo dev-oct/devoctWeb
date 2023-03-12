@@ -9,12 +9,6 @@
   width: 50%;
 }
 
-.pass,
-.cpass {
-  width: 100%;
-  position: relative;
-}
-
 .passbtn {
   /* width: auto; */
   position: relative;
@@ -27,7 +21,6 @@
 }
 
 .etext {
-  width: 100%;
   text-align: center;
   border-bottom: 1px solid #000;
   line-height: 0.1em;
@@ -41,6 +34,12 @@
 .right {
   width: 50%;
   position: relative;
+}
+
+.avatar {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 600px) {
