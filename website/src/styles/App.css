@@ -1,4 +1,10 @@
-.app {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* .app {
   background: rgb(249, 99, 2);
   background: linear-gradient(
     90deg,
@@ -9,6 +15,6 @@
     rgba(112, 156, 149, 1) 79%,
     rgba(86, 166, 177, 1) 94%
   );
-    height: 100vh;
-    color: white;
-}
+  height: 100vh;
+  color: white;
+} */

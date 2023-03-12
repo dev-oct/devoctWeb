@@ -1,0 +1,54 @@
+.signup {
+  width: auto;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.left {
+  position: relative;
+  width: 50%;
+}
+
+.pass,
+.cpass {
+  width: 100%;
+  position: relative;
+}
+
+.passbtn {
+  /* width: auto; */
+  position: relative;
+}
+
+.btn-inside {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.etext {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.etext span {
+  background: #fff;
+  padding: 0 10px;
+}
+.right {
+  width: 50%;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    text-align: center;
+  }
+
+  .right {
+    visibility: hidden;
+  }
+}
