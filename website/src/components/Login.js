@@ -12,7 +12,7 @@ const Login = () => {
                         <img src={logo} alt="logo" className="logo h-36 w-36 text-center" />
                     </div>
                     <div className="body flex-col mt-20 mx-auto w-46">
-                        <h1 className="font-bold text-4xl">Login</h1>
+                        <h1 className="font-bold text-4xl">Log In</h1>
                         <div className="sform flex mt-2 flex-col p-2">
                             <input type="text" name="mail" className="mail bg-[#F1F1F1] px-4 py-2 w-96 placeholder:font-medium placeholder:text-gray-600  rounded-md m-2 focus:outline-none focus:ring focus:ring-[#56A6B1]" placeholder="Email" />
                             <div className='flex flex-row password'>
