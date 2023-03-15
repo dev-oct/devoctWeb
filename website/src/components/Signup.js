@@ -5,8 +5,12 @@ import { AiFillEye } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { BsLinkedin } from 'react-icons/bs';
+import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
+
+    const navigate = useNavigate();
+
     return (
         <main className="signup flex flex-row">
             <div className="left flex flex-col lg:px-16">
@@ -38,7 +42,7 @@ const Signup = () => {
                         <button className='m-5' ><FcGoogle /></button>
                         <button className='m-5'><BsLinkedin /></button>
                     </div>
-                    <p className='llogin text-center'>Already have an account? <a className='ml-2 text-[#F96302] font-bold underline' href="#">Sign In</a></p>
+                    <p className='llogin text-center'>Already have an account? <button className='ml-2 text-[#F96302] font-bold underline' onClick={() => { navigate('/login') }}>Sign In</button></p>
                 </div>
             </div>
 

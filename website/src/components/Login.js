@@ -2,8 +2,12 @@ import logo from '../assets/logo.png'
 import '../styles/login.css'
 import vector from '../assets/Vector2.png'
 import { AiFillEye } from 'react-icons/ai';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div className="login">
             <main className="signup flex flex-row">
@@ -28,14 +32,14 @@ const Login = () => {
                             </div>
                             <button className="cbtn my-4 ml-2 bg-[#56A6B1] text-white font-bold py-1 px-1 w-96 rounded-md">Login</button>
                         </div>
-                        <p className='llogin text-center'>Don't have an account? <a className='ml-2 text-[#56A6B1] font-bold underline' href="#">Create Account</a></p>
+                        <p className='llogin text-center'>Don't have an account? <button className='ml-2 text-[#56A6B1] font-bold underline' onClick={() => { navigate('/signup') }}>Create Account</button></p>
                     </div>
                 </div>
 
                 <div className="right bg-[#B8D8E0]">
                     <div className="text-center px-16 py-20 items-center">
                         <div className="content flex-col justify-center">
-                            <h2 className="font-bold text-4xl">Welcome to Devoct</h2>
+                            <h2 className="font-bold text-4xl">Welcome Back to Devoct</h2>
                             <p className="w-34 text-lg font-medium my-2 mx-40">Developing the best and efficient website, web applications and software application </p>
                             <img className="h-96 w-96 avatar" src={vector} alt="sign_emoj" />
                         </div>
