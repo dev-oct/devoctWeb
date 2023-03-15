@@ -15,7 +15,8 @@ nav {
 }
 
 .logo {
-  width: 117px;
+  width: 100px;
+  align-items: center;
   height: 100px;
 }
 

@@ -14,9 +14,9 @@ const Navbar = () => {
     }
 
     return (
-        <div className="navbar bg-[#FC63001A]">
-            <nav className="flex container justify-between items-center">
-                <div className="navL">
+        <div className="navbar shadow-xl bg-[#FC63001A]">
+            <nav className="flex container p-5 justify-between items-center">
+                <div className="navL items-center">
                     <img src={logo} alt="logo" className="logo" />
                 </div>
                 <div className="menu-icon hover:cursor-pointer hidden m-5" onClick={handleShowNavbar}>
@@ -30,7 +30,7 @@ const Navbar = () => {
                         <button onClick={() => { navigate('/roadmap') }} className="links hover:text-[#fc6300] lg:m-5">Roadmap</button>
                         <button onClick={() => { navigate('/contact') }} className="links hover:text-[#fc6300] lg:m-5">Contact Us</button>
                     </div>
-                    <div className="navLast">
+                    <div className="navLast text-white bg-[#fc6300] px-6 py-2 rounded-md">
                         <button onClick={() => { navigate('/login') }} className="">Login</button>
                     </div>
                 </div>

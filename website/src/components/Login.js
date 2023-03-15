@@ -37,7 +37,7 @@ const Login = () => {
                 </div>
 
                 <div className="right bg-[#B8D8E0]">
-                    <div className="text-center px-16 py-20 items-center">
+                    <div className="text-center pt-20 items-center">
                         <div className="content flex-col justify-center">
                             <h2 className="font-bold text-4xl">Welcome Back to Devoct</h2>
                             <p className="w-34 text-lg font-medium my-2 mx-40">Developing the best and efficient website, web applications and software application </p>
