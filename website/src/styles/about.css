@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  .abtPic {
+    display: none;
+  }
+  .abtT {
+    margin-top: 10px;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}

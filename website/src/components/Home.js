@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 import Landing from "./Landing";
+import About from "./About";
 
 const Home = () => {
 
@@ -10,7 +11,7 @@ const Home = () => {
         <div className="home">
             <Navbar />
             <Landing />
-            <p>Hi</p>
+            <About />
             {/* <div className="flex-col justify-start">
                 <button onClick={() => { navigate('/login') }} className="hb">Login</button>
                 <button onClick={() => { navigate('/signup') }} className="hb">Sign Up</button>

@@ -21,7 +21,7 @@
 @media (max-width: 768px) {
   .landing {
     padding: 0px;
-    margin: 0px;
+    margin-bottom: 10px;
   }
   .landing-content {
     display: flex;
@@ -41,7 +41,7 @@
     margin-top: 5px;
   }
   .lPic {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
   }
 }
