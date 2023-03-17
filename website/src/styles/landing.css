@@ -18,6 +18,27 @@
   width: 350px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .landing-text {
+    width: 25%;
+  }
+  .title {
+    line-height: 4rem;
+    margin-top: 25px;
+    font-size: 3rem;
+  }
+
+  .para {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+
+  .lPic {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .landing {
     padding: 0px;
