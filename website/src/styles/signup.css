@@ -31,6 +31,10 @@
   background: #fff;
   padding: 0 10px;
 }
+
+.sFooter {
+  visibility: hidden;
+}
 .right {
   width: 50%;
   position: relative;
@@ -42,17 +46,58 @@
   margin-right: auto;
 }
 
+/*
+Extra small devices (phones, 600px and down) 
 @media only screen and (max-width: 600px) {
-  .logo {
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    width: 100px;
+  ...;
+}
+
+Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {
+  ...;
+}*/
+
+@media only screen and (max-width: 600px) {
+  .signup {
+    text-align: center;
+    width: auto;
+    margin: 0;
+    padding: 0 5px;
   }
   .left {
+    display: flex;
+    width: 100%;
     text-align: center;
+    align-items: center;
   }
+  .head .logo {
+    position: relative;
+    left: 40%;
+    height: 150px;
+    width: 150px;
+  }
+  .body input {
+    padding: 10px;
+  }
+  /* .sFooter {
+    position: relative;
+    display: block;
+    overflow: visible;
+    visibility: visible;
+  }
+  .sFooter span {
+    height: 150px;
+    position: relative;
+    display: block;
+    width: 150px;
+  }
+  .one {
+    background: #56a6b1;
+  }
+  .two {
+    background: #f96302;
+  } */
   .right {
-    visibility: hidden;
+    display: none;
   }
 }

@@ -11,11 +11,14 @@ const Signup = () => {
 
     const navigate = useNavigate();
 
+    //lg:px-16
+    //lg:px-11
+
     return (
-        <main className="signup flex flex-row">
-            <div className="left flex flex-col lg:px-16">
-                <div className="head flex sm:px-1 lg:px-11">
-                    <img src={logo} alt="logo" className="logo h-36 w-36 text-center" />
+        <main className="signup flex flex-row justify-center">
+            <div className="left flex flex-col">
+                <div className="head">
+                    <img src={logo} alt="logo" className="logo lg:h-36 m-0 p-0 lg:w-36" />
                 </div>
                 <div className="body flex-col mt-5 mx-auto w-46">
                     <h1 className="font-bold text-4xl">Create Account</h1>
@@ -44,8 +47,10 @@ const Signup = () => {
                     </div>
                     <p className='llogin text-center'>Already have an account? <button className='ml-2 text-[#F96302] font-bold underline' onClick={() => { navigate('/login') }}>Sign In</button></p>
                 </div>
+                {/* <div className='sFooter flex-row flex'>
+                    <span className='one rounded-full'></span><span className='two rounded-full'></span>
+                </div> */}
             </div>
-
             <div className="right bg-[#FDC8A6]">
                 <div className="text-center px-16 py-20 items-center">
                     <div className="content flex-col justify-center">
