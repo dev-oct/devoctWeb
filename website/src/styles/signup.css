@@ -46,17 +46,6 @@
   margin-right: auto;
 }
 
-/*
-Extra small devices (phones, 600px and down) 
-@media only screen and (max-width: 600px) {
-  ...;
-}
-
-Small devices (portrait tablets and large phones, 600px and up) 
-@media only screen and (min-width: 600px) {
-  ...;
-}*/
-
 @media only screen and (max-width: 600px) {
   .signup {
     text-align: center;
@@ -100,4 +89,9 @@ Small devices (portrait tablets and large phones, 600px and up)
   .right {
     display: none;
   }
+}
+
+@media only screen and (min-width: 1200px) {
+
+
 }

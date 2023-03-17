@@ -20,7 +20,7 @@ const Signup = () => {
                 <div className="head">
                     <img src={logo} alt="logo" className="logo lg:h-36 m-0 p-0 lg:w-36" />
                 </div>
-                <div className="body flex-col mt-5 mx-auto w-46">
+                <div className="body flex-col mt-3 mx-auto w-46">
                     <h1 className="font-bold text-4xl">Create Account</h1>
                     <div className="sform flex mt-2 flex-col p-2">
                         <input type="text" name="fname" className="fname bg-[#F1F1F1] px-4 py-1 w-96 placeholder:font-medium placeholder:text-gray-600 rounded-md m-2 focus:outline-none focus:ring focus:ring-[#56A6B1]" placeholder="Full Name" />
@@ -37,10 +37,10 @@ const Signup = () => {
                             <input type="checkbox" className="mb-4" />
                             <p className="text-sm m-1">I have read and accepted the<span className="font-bold text-[#F96302]">Terms and Condition </span>to Devoct</p>
                         </div>
-                        <button className="cbtn my-4 ml-2 bg-[#F96302] text-white font-bold py-1 px-1 w-96 rounded-md">Create Account</button>
+                        <button className="cbtn my-2 ml-2 bg-[#F96302] text-white font-bold py-1 px-1 w-96 rounded-md">Create Account</button>
                     </div>
                     <p className='etext'><span>Or sign up with</span></p>
-                    <div className='externalLinks text-center text-4xl text-blue-900'>
+                    <div className='externalLinks text-center text-3xl xl:text-4xl text-blue-900'>
                         <button className='m-5'><FaFacebookF /></button>
                         <button className='m-5' ><FcGoogle /></button>
                         <button className='m-5'><BsLinkedin /></button>
@@ -52,11 +52,11 @@ const Signup = () => {
                 </div> */}
             </div>
             <div className="right bg-[#FDC8A6]">
-                <div className="text-center px-16 py-20 items-center">
+                <div className="text-center py-10 mt-5 xl:px-16 xl:py-20 items-center">
                     <div className="content flex-col justify-center">
                         <h2 className="font-bold text-4xl">Welcome to Devoct</h2>
                         <p className="w-34 text-lg font-medium my-2 mx-40">Developing the best and efficient website, web applications and software application </p>
-                        <img className="h-96 w-96 avatar" src={vector} alt="sign_emoj" />
+                        <img className="h-80 w-80 xl:h-96 xl:w-96 avatar" src={vector} alt="sign_emoj" />
                     </div>
                 </div>
             </div>
