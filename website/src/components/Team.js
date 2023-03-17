@@ -9,7 +9,7 @@ const Team = () => {
             <div className="flex justify-center mt-3">
                 <h1 className='font-bold text-3xl'>Our Team</h1>
             </div>
-            <div className="flex px-10 py-5 my-5 gap-5 justify-center bg-[#FC63003B]">
+            <div className="flex px-10 py-8 my-5 gap-5 justify-center bg-[#FC63003B]">
                 <div className="sec px-5 py-2 flex w-72 gap-5 rounded-lg bg-white">
                     <img src={m1} className="h-14 w-14" alt="m1" />
                     <div className='flex mx-2 flex-col'>
