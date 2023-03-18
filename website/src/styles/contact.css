@@ -3,7 +3,17 @@
   width: 400px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
+  .contact .cform {
+    border: 2px solid #37474f;
+    border-radius: 6px;
+    padding: 20px;
+  }
+
+  .contact input {
+    padding: 5px;
+    width: 100%;
+  }
   .contact .img {
     display: none;
   }

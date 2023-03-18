@@ -11,10 +11,10 @@ const Contact = () => {
                 </div>
                 <div className="cform">
                     <div className="flex flex-col gap-5">
-                        <input type="text" placeholder="Your Name" className=" rounded-md px-5 py-2 outline outline-[#37474F]" />
-                        <input type="text" placeholder="Email" className=" rounded-md px-5 py-2 outline outline-[#37474F]" />
-                        <input type="text" placeholder="Phone" className=" rounded-md px-5 py-2 outline outline-[#37474F]" />
-                        <textarea rows={4} cols={30} placeholder="Describe your issue" className=" rounded-md outline outline-[#37474F] px-5 py-2" />
+                        <input type="text" placeholder="Your Name" className=" rounded-md px-5 py-2 outline outline-2 outline-[#37474F]" />
+                        <input type="text" placeholder="Email" className="rounded-md px-5 py-2 outline outline-2 outline-[#37474F]" />
+                        <input type="text" placeholder="Phone" className="rounded-md px-5 py-2 outline outline-2 outline-[#37474F]" />
+                        <textarea rows={4} cols={30} placeholder="Describe your issue" className=" rounded-md  outline  outline-2 outline-[#37474F] px-5 py-2" />
                         <button className="btn bg-[#FC6300F0] px-2 py-2 font-bold rounded-lg">SEND</button>
                     </div>
                 </div>

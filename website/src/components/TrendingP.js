@@ -5,13 +5,13 @@ import '../styles/trendingp.css';
 
 const TrendingP = () => {
     return (
-        <div className="flex projects flex-col">
+        <div className="flex projects mt-3 flex-col">
             <div className="items-center aboutT text-center">
                 <h1 className="font-bold text-3xl">Trending Project</h1>
             </div>
-            <div className="p-5 my-3 project flex gap-5 flex-row justify-around">
+            <div className="p-5 m-3 project flex overflow-auto gap-5 flex-row justify-around">
                 {projects.map(props => (
-                    <div key={props._id} className=" bg-[#CCE4E791] h-86 w-72 rounded-md hover:transform hover:scale-105">
+                    <div key={props._id} className=" bg-[#CCE4E791] h-86 w-86 rounded-md hover:transform hover:scale-105">
                         <div className="">
                             <img src={props.image} className="h-40 w-72" alt={props.title} />
                         </div>

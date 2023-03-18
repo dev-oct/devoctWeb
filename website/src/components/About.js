@@ -3,7 +3,7 @@ import about from '../assets/aboutL.png'
 
 const About = () => {
     return (
-        <div className="about flex-col text-center">
+        <div className="about flex-col mt-3 text-center">
             <div className="aboutT items-center">
                 <h1 className='font-bold text-3xl'>About Us</h1>
             </div>
