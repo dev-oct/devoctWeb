@@ -5,6 +5,7 @@ import About from "./About";
 import Team from "./Team";
 import Contact from "./Contact";
 import TrendingP from "./TrendingP";
+import RecentP from "./RecentP";
 
 const Home = () => {
 
@@ -16,12 +17,9 @@ const Home = () => {
             <Landing />
             <About />
             <TrendingP />
+            <RecentP />
             <Team />
             <Contact />
-            {/* <div className="flex-col justify-start">
-                <button onClick={() => { navigate('/login') }} className="hb">Login</button>
-                <button onClick={() => { navigate('/signup') }} className="hb">Sign Up</button>
-            </div> */}
         </div >
     );
 }

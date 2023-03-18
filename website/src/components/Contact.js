@@ -1,5 +1,8 @@
 import cpic from '../assets/cpic.png';
 import '../styles/contact.css'
+import { AiOutlineMail } from 'react-icons/ai';
+import { GiCharacter } from 'react-icons/gi';
+import { MdPhoneAndroid } from 'react-icons/md';
 
 const Contact = () => {
     return (
@@ -11,9 +14,18 @@ const Contact = () => {
                 </div>
                 <div className="cform">
                     <div className="flex flex-col gap-5">
-                        <input type="text" placeholder="Your Name" className=" rounded-md px-5 py-2 outline outline-2 outline-[#37474F]" />
-                        <input type="text" placeholder="Email" className="rounded-md px-5 py-2 outline outline-2 outline-[#37474F]" />
-                        <input type="text" placeholder="Phone" className="rounded-md px-5 py-2 outline outline-2 outline-[#37474F]" />
+                        <div className='flex outline outline-2 outline-[#37474F] rounded-md'>
+                            <span className='infont'><AiOutlineMail className="inline-block" /></span>
+                            <input type="text" placeholder="Your Name" className="px-5 mx-5 py-2 focus:border-none" />
+                        </div>
+                        <div className='flex outline outline-2 outline-[#37474F] rounded-md'>
+                            <span className='infont'><GiCharacter className="inline-block" /></span>
+                            <input type="text" placeholder="Email" className="px-5 py-2 mx-5" />
+                        </div>
+                        <div className='flex outline outline-2 outline-[#37474F] rounded-md'>
+                            <span className='infont'><MdPhoneAndroid className="inline-block" /></span>
+                            <input type="text" placeholder="Phone" className="px-5 py-2 mx-5" />
+                        </div>
                         <textarea rows={4} cols={30} placeholder="Describe your issue" className=" rounded-md  outline  outline-2 outline-[#37474F] px-5 py-2" />
                         <button className="btn bg-[#FC6300F0] px-2 py-2 font-bold rounded-lg">SEND</button>
                     </div>
