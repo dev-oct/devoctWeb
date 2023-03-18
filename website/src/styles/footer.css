@@ -1,0 +1,34 @@
+.footer {
+  width: 100%;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .footer .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer .fcontent {
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .ff {
+    font-size: small;
+  }
+  .quotes {
+    gap: 10px;
+  }
+  .quotes .pa {
+    display: none;
+  }
+  .links div,
+  .links {
+    gap: 10px;
+  }
+}

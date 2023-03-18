@@ -10,7 +10,7 @@ const Contact = () => {
             <div className='flex flex-col gap-3'>
                 <div className="flex flex-col gap-3">
                     <p className="text-center text-3xl">GET IN <span className="font-bold"> TOUCH! </span></p>
-                    <p>24/7 We will answer your questions and problems</p>
+                    <p className='flex text-center'>24/7 We will answer your questions and problems</p>
                 </div>
                 <div className="cform">
                     <div className="flex flex-col gap-5">

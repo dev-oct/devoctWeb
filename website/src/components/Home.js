@@ -6,6 +6,7 @@ import Team from "./Team";
 import Contact from "./Contact";
 import TrendingP from "./TrendingP";
 import RecentP from "./RecentP";
+import Footer from './Footer';
 
 const Home = () => {
 
@@ -20,6 +21,7 @@ const Home = () => {
             <RecentP />
             <Team />
             <Contact />
+            <Footer />
         </div >
     );
 }
