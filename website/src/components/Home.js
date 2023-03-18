@@ -4,6 +4,7 @@ import Landing from "./Landing";
 import About from "./About";
 import Team from "./Team";
 import Contact from "./Contact";
+import TrendingP from "./TrendingP";
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
             <Navbar />
             <Landing />
             <About />
+            <TrendingP />
             <Team />
             <Contact />
             {/* <div className="flex-col justify-start">
