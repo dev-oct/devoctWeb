@@ -1,9 +1,10 @@
 import '../styles/footer.css';
 import { FaLinkedinIn, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
     return (
-        <div className="footer relative flex flex-col mt-3 p-5 bg-[#263238]">
+        <div className="footer relative flex flex-col mt-3 p-0 bg-[#263238]">
             <div className='flex flex-wrap data flex-row justify-around mt-2'>
                 <div className="flex mphone justify-start flex-col items-center mt-2">
                     <p className="hover:opacity-50">contact@devoct.com</p>
@@ -35,7 +36,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex ff flex-row justify-around p-3 border-t border-b mt-20">
+            <div className="flex ff hover:cursor-pointer flex-row justify-around p-3 border-t border-b mt-20 mx-5">
                 <div className="quotes flex flex-row justify-center gap-5">
                     <p>Terms and Conditions</p>
                     <ul className='flex list-disc flex-row gap-5'>
@@ -43,7 +44,7 @@ const Footer = () => {
                         <li className='pa'>Partner Agreement</li>
                     </ul>
                 </div>
-                <div className="links flex flex-row gap-3 items-center justify-center">
+                <div className="links flex flex-row gap-4 items-center justify-center">
                     <p>Follow Us</p>
                     <div className='flex flex-row gap-3'>
                         <FaLinkedinIn className='outline hover:text-[#FC63007D] hover:border-white rounded-xl hover:bg-white outline-1 p-1 text-2xl' />
@@ -53,8 +54,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='flex flex-row justify-around items-center'>
                 <p>© 2023 Devoct All rights reserved.</p>
+                <img src={logo} className="h-24 w-24" alt="image" />
             </div>
         </div >
 
