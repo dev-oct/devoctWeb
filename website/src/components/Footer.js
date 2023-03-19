@@ -47,8 +47,8 @@ const Footer = () => {
                 <div className="links flex flex-row gap-4 items-center justify-center">
                     <p>Follow Us</p>
                     <div className='flex flex-row gap-3'>
-                        <a href='https://www.linkedin.com/company/devoct' target={'_blank'}><FaLinkedinIn className='outline hover:text-[#FC63007D] hover:border-white rounded-xl hover:bg-white outline-1 p-1 text-2xl' /></a>
-                        <a href='https://www.instagram.com/devoct.co/' target={'_blank'}><FaInstagram className='outline hover:text-[#FC63007D] hover:border-white hover:bg-white rounded-xl outline-1 p-1 text-2xl' /></a>
+                        <a href='https://www.linkedin.com/company/devoct' target={'_blank'} rel="noreferrer"><FaLinkedinIn className='outline hover:text-[#FC63007D] hover:border-white rounded-xl hover:bg-white outline-1 p-1 text-2xl' /></a>
+                        <a href='https://www.instagram.com/devoct.co/' target={'_blank'} rel="noreferrer"><FaInstagram className='outline hover:text-[#FC63007D] hover:border-white hover:bg-white rounded-xl outline-1 p-1 text-2xl' /></a>
                         <a href='#' target={'_blank'}><FaTwitter className='outline hover:text-[#FC63007D] hover:border-white hover:bg-white outline-1 p-1 rounded-xl text-2xl' /></a>
                         <a href='#' target={'_blank'}><FaFacebook className='outline hover:text-[#FC63007D] hover:border-white hover:bg-white outline-1 p-1 text-2xl rounded-xl' /></a>
                     </div>

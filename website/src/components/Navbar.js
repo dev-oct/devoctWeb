@@ -28,7 +28,7 @@ const Navbar = () => {
                         <button onClick={() => { navigate('/project') }} className="links hover:text-[#fc6300] lg:m-5">Projects</button>
                         <button onClick={() => { navigate('/blog') }} className="links hover:text-[#fc6300] lg:m-5">Blog</button>
                         <button onClick={() => { navigate('/roadmap') }} className="links hover:text-[#fc6300] lg:m-5">Roadmap</button>
-                        <button onClick={() => { navigate('/contact') }} className="links hover:text-[#fc6300] lg:m-5">Contact Us</button>
+                        <button onClick={() => { navigate('/contactus') }} className="links hover:text-[#fc6300] lg:m-5">Contact Us</button>
                     </div>
                     <div className="navLast text-white bg-[#fc6300] px-8 py-1 rounded-md">
                         <button onClick={() => { navigate('/login') }} className="">Login</button>
