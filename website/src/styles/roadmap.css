@@ -1,0 +1,23 @@
+.rHead {
+  background: linear-gradient(184.78deg, #fac7a6 16.51%, #fc6300 96.14%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media screen and (max-width: 600px) {
+  .roadmap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .roadmapC {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content .sc {
+    width: 30%;
+  }
+}
