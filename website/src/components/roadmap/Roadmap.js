@@ -23,8 +23,8 @@ const Roadmap = () => {
                 <div className="content">
                     <div className="flex uppercase text-center flex-wrap flex-row justify-around">
                         {roadmap.map(props => (
-                            <div key={props._id} className="m-2 w-80 flex flex-col justify-center items-center sc">
-                                <img src={props.image} alt="category" />
+                            <div key={props._id} className="m-2 w-80 flex flex-col justify-center items-center sc hover:shadow-xl rounded-xl">
+                                <a href={props.link}><img src={props.image} alt="category" /></a>
                                 <span className="text-2xl m-2">{props.title}</span>
                             </div>
                         ))}
